@@ -25,7 +25,9 @@
 	body {
 		line-height: 1;
 	}
-
+	.cv a {
+		text-decoration: none;
+	}
 	/**/
 	.dropdownmenu ul, .dropdownmenu li {
 		margin: 0;
@@ -1770,6 +1772,7 @@
 
 	section.special, article.special {
 		text-align: center;
+		
 	}
 
 	header p {
@@ -2561,14 +2564,15 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 4em 0em 0;
 		position: fixed;
 		text-align: right;
 		width: 35%;
+		margin: 0px;
 	}
 
 		#footer .icons {
-			margin: 1em 0 0 0;
+			margin: 0em 0 0 0;
 		}
 
 			#footer .icons a {
